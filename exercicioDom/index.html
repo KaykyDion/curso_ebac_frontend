@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício DOM</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Campos numéricos</h1>
+      <form id="form-numbers">
+        <div class="fields">
+          <input
+            type="number"
+            id="field-A"
+            class="field"
+            placeholder="Digite o primeiro número"
+            required
+          />
+          <p class="error-message"></p>
+          <input
+            type="number"
+            class="field"
+            id="field-B"
+            placeholder="Digite o segundo número"
+            required
+          />
+          <p class="warning-message"></p>
+        </div>
+        <button type="submit">Verificar</button>
+      </form>
+      <p class="verified-message"></p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
