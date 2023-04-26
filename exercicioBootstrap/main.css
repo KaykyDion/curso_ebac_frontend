@@ -1,0 +1,8 @@
+form {
+  max-width: 700px;
+}
+
+form input,
+.form-check {
+  margin-bottom: 18px;
+}
